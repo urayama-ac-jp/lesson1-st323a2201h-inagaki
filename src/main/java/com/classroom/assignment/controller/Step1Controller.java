@@ -12,7 +12,7 @@ public class Step1Controller {
   @GetMapping
   public String index(Model model) {
     // 課題 level1 step1
-    model.addAttribute("title", "ここを書き換えてみよう!");
+    model.addAttribute("title", "hello world");
     return "step1/index";
   }
 }
